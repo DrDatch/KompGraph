@@ -52,12 +52,19 @@
     <PackageCertificateKeyFile>KompGraph_TemporaryKey.pfx</PackageCertificateKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="util\" />
-    <Folder Include="lab1\" />
-    <Folder Include="lab2\" />
-    <Folder Include="lab3\" />
-    <Folder Include="lab4\" />
-    <Folder Include="lab5\" />
+    <Content Include="lab1\lab1.html" />
+    <Content Include="lab2\lab2.html" />
+    <Content Include="lab3\lab3.html" />
+    <Content Include="lab4\lab4.html" />
+    <Content Include="lab5\lab5.html" />
+    <Content Include="util\bezierCurve.js" />
+    <Content Include="util\bresenhamCircle.js" />
+    <Content Include="util\bresenhamLine.js" />
+    <Content Include="util\fillRegion.js" />
+    <Content Include="util\matrix.js" />
+    <Content Include="util\polygonFill.js" />
+    <Content Include="util\rectClip.js" />
+    <Content Include="util\util.js" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
   <!-- To modify your build process, add your task inside one of the targets below then uncomment
